@@ -5,12 +5,13 @@ These show how code changes or progresses over time.  For example, you might bre
 
 === Text-based description
 
-"Tech book approach" -- have a narrative series of listing that shows the code at each point and describes the changes made.
-
+This is the standard "tech book approach" -- have a narrative series of listing that shows the code at each point, and describes the changes between each.  There's no particular figure required for this.
 
 === Meteor book
 
-Uses commits at each checkpoint so that the user can check out a commit that corresponds to a specific section of the example
+http://www.discovermeteor.com/[The Meteor Book] has a nice system that uses commits at each checkpoint so that the user can check out the code that corresponds to a specific section of the example.  The nice thing about this method is that it allows the author make changes in a natural way that is similar to how they would work with code.
+
+image::images/metero_book.png[]
 
 === GitHub network view
 

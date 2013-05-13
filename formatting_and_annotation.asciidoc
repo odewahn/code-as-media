@@ -6,9 +6,11 @@ This category covers the different ways that code is either formatted or annotat
 Examples include:
 
 
-* Pygments (Syntax highlighting)
-* Docco
-* Sphinx (I think!)
+=== Pygments (Syntax highlighting)
+
+=== Docco
+
+=== Sphinx (I think!)
 
 [[formatting_and_annotation_shoutout]]
 [role="shoutout"]

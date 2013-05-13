@@ -4,9 +4,21 @@
 Examples include:
 
 
-* Brett Victors thing about how code changes over time
-* Stack tracing (Allen sent this a while ago)
-* Ben Fry's visualization of old games
+=== Learnable Programming
+
+http://worrydream.com/#!/LearnableProgramming[Learnable Programming] is Bret Victor essay about coding environments.  One of it's key points is that you should be able to see the progression of code across time as the program executes.  So, if you have a variable, you might have a timeline that shows how the value changes on each iteration.  It's not clear from the essay if there is an actual editor of IDE he proposes.
+
+image::images/learnable_programming.png[]
+
+Jeff Atwood also has a great article on this Victor's ideas called http://www.codinghorror.com/blog/2012/03/visualizing-code-to-fail-faster.html[Visualizing Code to Fail Faster].
+
+
+=== deprocess
+
+http://benfry.com/deprocess/[Deprocess] is Ben Fry's visualization of code as it runs.  It's mostly an art piece, but it's an interesting way to think about how you'd watch code change as it runs.
+
+image::images/deprocess.png[]
+
 
 [[execution_and_flow_shoutout]]
 [role="shoutout"]
