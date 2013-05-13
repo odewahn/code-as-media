@@ -1,0 +1,12 @@
+[[finding_and_searching]]
+== Finding and searching
+
+* Code search on github
+* Stackkoverflow
+
+[[finding_and_searching_shoutout]]
+[role="shoutout"]
+.Have a suggestion or comment?
+****
+Post suggestions or comments here.
+****

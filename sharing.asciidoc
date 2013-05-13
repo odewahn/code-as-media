@@ -1,0 +1,17 @@
+=== Sharing
+
+The sharing category covers different ways that people share code to others (duh!).  They can range from simple (like posting something on a blog) to complex, but the basic idea is that these are ways people send out snippets or full worked examples and get feedback.
+
+* Blogging / Static site
+* GitHub
+* JSFiddle / JSBin
+* Gists
+* Google Code
+* Dribble
+
+[[sharing_shoutout]]
+[role="shoutout"]
+.Have a suggestion or comment?
+****
+Post suggestions or comments here.
+****

@@ -1,0 +1,15 @@
+[[evolution]]
+== Code evolution
+
+These show how code changes or progresses over time.  For example, you might break a complex example down into a series of steps.  At each change point, you show how the code changes.
+
+* "Tech book approach" -- have a narrative series of listing that shows the code at each point and describes the changes made.
+* Meteor book -- uses commits at each checkpoint so that the user can check out a commit that corresponds to a specific section of the example
+* GitHub network view
+
+[[evolution_shoutout]]
+[role="shoutout"]
+.Have a suggestion or comment?
+****
+Post suggestions or comments here.
+****

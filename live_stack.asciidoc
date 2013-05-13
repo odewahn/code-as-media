@@ -1,0 +1,13 @@
+[[live_stack]]
+== Live stack
+
+* Runnable.com
+* Heroku
+* Virtualbox
+
+[[live_stack_shoutout]]
+[role="shoutout"]
+.Have a suggestion or comment?
+****
+Post suggestions or comments here.
+****

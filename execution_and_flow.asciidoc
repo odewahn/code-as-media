@@ -1,0 +1,16 @@
+[[execution_and_flow]]
+== Modeling execution and flow
+
+Examples include:
+
+
+* Brett Victors thing about how code changes over time
+* Stack tracing (Allen sent this a while ago)
+* Ben Fry's visualization of old games
+
+[[execution_and_flow_shoutout]]
+[role="shoutout"]
+.Have a suggestion or comment?
+****
+Post suggestions or comments here.
+****

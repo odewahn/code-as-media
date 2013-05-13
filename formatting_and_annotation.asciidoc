@@ -1,0 +1,18 @@
+[[formatting_and_annotation]]
+=== Formatting and annotation (literate programming)
+
+This category covers the different ways that code is either formatted or annotated.  This can take the form of color coding the syntax, or pulling out comments to create new documentation.  This idea, called http://en.wikipedia.org/wiki/Literate_programming[literate programming], was invented by Donald Knuth as a way to create self-documenting programs.  The technique is used by many languages to create reference and API documents and sites. 
+
+Examples include:
+
+
+* Pygments (Syntax highlighting)
+* Docco
+* Sphinx (I think!)
+
+[[formatting_and_annotation_shoutout]]
+[role="shoutout"]
+.Have a suggestion or comment?
+****
+Post suggestions or comments here.
+****

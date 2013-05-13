@@ -1,0 +1,15 @@
+[[unstructured_sandbox]]
+== Unstructured sandbox
+
+* iPython Notebook
+* Khan Academy
+* Scratch http://scratch.mit.edu/
+* jqfundamentals (http://jqfundamentals.com/)
+
+
+[[unstructured_shoutout]]
+[role="shoutout"]
+.Have a suggestion or comment?
+****
+Post suggestions or comments here.
+****

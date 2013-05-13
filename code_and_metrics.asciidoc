@@ -1,0 +1,14 @@
+[[code_and_metrics]]
+== Code analysis and Metrics
+
+These are services that evaluate a given code repo and create some ancillary material for it.  For example, a service might compute various metrics (code coverage for a test suite, etc), project management and alerts (for example, it sends a message to a chat service when someone commits), documentation (rebuilds automated docs on each commit), etc.  These are often implemented as webhooks within a CI server (Jenkins, etc) or in the VCS (like a GitHub service hook).
+
+* CodeClimate (https://codeclimate.com/)
+
+
+[[code_and_metrics_shoutout]]
+[role="shoutout"]
+.Have a suggestion or comment?
+****
+Post suggestions or comments here.
+****
