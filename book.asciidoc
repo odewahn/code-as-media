@@ -4,6 +4,10 @@
 
 include::00_intro.asciidoc[]
 
+include::unstructured_sandbox.asciidoc[]
+
+include::structured_sandbox.asciidoc[]
+
 include::sharing.asciidoc[]
 
 include::formatting_and_annotation.asciidoc[]
@@ -11,10 +15,6 @@ include::formatting_and_annotation.asciidoc[]
 include::execution_and_flow.asciidoc[]
 
 include::live_stack.asciidoc[]
-
-include::structured_sandbox.asciidoc[]
-
-include::unstructured_sandbox.asciidoc[]
 
 include::evolution.asciidoc[]
 
