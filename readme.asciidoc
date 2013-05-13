@@ -1,7 +1,7 @@
 [[introduction]]
 == Introduction
 
-This work is a living catalog of sites where code is as a media onject in and of its own right.  In other words, we're not interested so much in the code itself (i.e., does it work, how does it perform, etc), but how to we communicate *about* the code or topic, so that people understand or learn either what it does or the topic to which it pertains.  Each chapter covers a specific pattern, along with multiple sample sites that show the ideas in action.  The goal is to begin to build a common vocabulary to think about how people learn to code and to understand the range of projects across the web.  
+This work is a living catalog of sites where code is a media onject in and of its own right.  In other words, we're not interested so much in the code itself (i.e., does it work, how does it perform, etc), but how to we communicate *about* the code or topic, so that people understand or learn either what it does or the topic to which it pertains.  Each chapter covers a specific pattern, along with multiple sample sites that show the ideas in action.  The goal is to begin to build a common vocabulary to think about how people learn to code and to understand the range of projects across the web.  
 
 The current patterns are:
 

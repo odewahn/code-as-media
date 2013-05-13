@@ -6,13 +6,14 @@ An unstructured sandbox provides an open ended, terminal-like model for entering
 * Strengths
 ** Editorial flexibility -- allows the author to insert whatever types of content he or she will best describe the topic
 * Weaknesses
+** Design inflexibility.  These often appear as iframes or something disruptive to the overall experience.
+** Non-integrated.  Unless care is taken, the sandbox can feel tacked on editorially as an afterthought.
 
 Examples include:
 
 [[ipython]]
-.http://ipython.org/notebook.html[iPython Notebook] is a tool for viewing python in the browser.  The author writes in an integrated environment (the native format is JSON) that allows text, euqations, and live code.  (The code executes on a remote server.)  The output of the code is presented in a terminal style format.  One of the other really nice features is that it is simple to embed images, like those generated from numerical or scientific tools like numpy or scipy.
+.http://ipython.org/notebook.html[iPython Notebook] is a tool for viewing python in the browser.  The author writes in an integrated environment (the native format is JSON) that allows text, equations, and live code.  (The code executes on a remote server.)  The output of the code is presented in a terminal style format.  One of the other really nice features is that it is simple to embed images, like those generated from numerical or scientific tools like numpy or scipy.
 image::images/ipython_notebook.png[]
-
 
 [[khan_academy]]
 .https://www.khanacademy.org[Khan Academy] provides a vast array of learning classes around basic computer science.  There are typically a  video or animation for each step, after which the student is able to experiment with the code in the sandbox.  The coding environment is divided into a pane for listing and a pane for the output, where the student can see the result.  (Currently, only Javascript-based languages seem to be supported.)  The code environment also supports a "Save as a spin off" button where the user can save the code listing to his or her own private account for modification.
@@ -23,8 +24,12 @@ image::images/khan_academy.png[]
 image::images/scratch.png[]
 
 [[jqfundamentals]]
-.jqfundamentals (http://jqfundamentals.com/) is a site for teaching javascript.  It walks through a rich set of concepts that are illustrated with specific code examples.  You can click on a small icon on the example to open a live code editor where you can run the example.
+.http://jqfundamentals.com/[jqfundamentals]is a site for teaching javascript.  It walks through a rich set of concepts that are illustrated with specific code examples.  You can click on a small icon on the example to open a live code editor where you can run the example.
 image::images/jqfundamentals.png[]
+
+[[chimera]]
+.http://chimera.labs.oreilly.com/[O'Reilly Chimera] is a new beta site for experimenting with how books can become more interactive.  At it's current start of development, the site has embedded JSBins that allow the reader to try out the code.  (Javascript only.)
+image::images/chimera.png[]
 
 
 [[unstructured_shoutout]]
