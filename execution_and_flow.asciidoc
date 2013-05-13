@@ -1,17 +1,15 @@
 [[execution_and_flow]]
 == Modeling execution and flow
 
-Examples include:
-
+These sites show how the flow of a program can be revealed to deepen our understanding.
 
 === Learnable Programming
 
-http://worrydream.com/#!/LearnableProgramming[Learnable Programming] is Bret Victor essay about coding environments.  One of it's key points is that you should be able to see the progression of code across time as the program executes.  So, if you have a variable, you might have a timeline that shows how the value changes on each iteration.  It's not clear from the essay if there is an actual editor of IDE he proposes.
+http://worrydream.com/#!/LearnableProgramming[Learnable Programming] is Bret Victor essay about coding environments.  One of its key points is that you should be able to see the progression of code across time as the program executes.  So, if you have a variable, you might have a timeline that shows how the value changes on each iteration.  It's not clear from the essay if there is an actual editor of IDE he proposes.
 
 image::images/learnable_programming.png[]
 
 Jeff Atwood also has a great article on this Victor's ideas called http://www.codinghorror.com/blog/2012/03/visualizing-code-to-fail-faster.html[Visualizing Code to Fail Faster].
-
 
 === deprocess
 
@@ -19,6 +17,9 @@ http://benfry.com/deprocess/[Deprocess] is Ben Fry's visualization of code as it
 
 image::images/deprocess.png[]
 
+=== Stacktrace thing from Allen Noren
+
+I need to find this email from him...
 
 [[execution_and_flow_shoutout]]
 [role="shoutout"]

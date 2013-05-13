@@ -1,16 +1,21 @@
 [[formatting_and_annotation]]
 == Formatting and annotation
 
-This category covers the different ways that code is either formatted or annotated.  This can take the form of color coding the syntax, or pulling out comments to create new documentation.  This idea, called http://en.wikipedia.org/wiki/Literate_programming[literate programming], was invented by Donald Knuth as a way to create self-documenting programs.  The technique is used by many languages to create reference and API documents and sites. 
+This category covers the different ways that code is either formatted or annotated.  This can take the form of color coding the syntax, or pulling out comments to create new documentation. 
 
 Examples include:
 
 
 === Pygments (Syntax highlighting)
 
+[Pygments] is a post-processor that applies syntax highlighting for a waide range of languages.  (Some 200+ are supported.)  The key advantage is that it makes code more readable.
+
+
 === Docco
 
-=== Sphinx (I think!)
+Docco is a Jeremy Ashkenas project that takes comments embedded in source code and turns them into annotations that appear on the sidepanel of the listing.  This allows the reader to more easily scan the code and read the comments in a way that is visually more appealing than having the comments appear purely inline.
+
+*add screenshot from the nauture of code*
 
 [[formatting_and_annotation_shoutout]]
 [role="shoutout"]

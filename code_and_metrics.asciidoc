@@ -5,10 +5,22 @@ These are services that evaluate a given code repo and create some ancillary mat
 
 === CodeClimate (https://codeclimate.com/)
 
-
 [[code_and_metrics_shoutout]]
+
+
+=== Documentation generators
+
+This section covers tools that build documentation directly from the source code itself.  This idea, called http://en.wikipedia.org/wiki/Literate_programming[literate programming], was invented by Donald Knuth as a way to create self-documenting programs.  The technique is used by many languages to create reference and API documents and sites. 
+
+Key tools include:
+
+* Sphinx.  Documentation generator for Python.
+* JavaDocs.  Documentation for Java.
+
+
 [role="shoutout"]
 .Have a suggestion or comment?
 ****
 Post suggestions or comments here.
 ****
+

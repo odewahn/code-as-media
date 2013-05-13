@@ -7,7 +7,7 @@ The sharing category covers different ways that people share code to others (duh
 
 === GitHub
 
-=== JSFiddle / JSBin
+=== JSBin / JSFiddle
 
 === Gists
 
