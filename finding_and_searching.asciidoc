@@ -1,8 +1,9 @@
 [[finding_and_searching]]
 == Finding and searching
 
-* Code search on github
-* Stackkoverflow
+=== GitHub code search
+
+=== Stackoverflow
 
 [[finding_and_searching_shoutout]]
 [role="shoutout"]

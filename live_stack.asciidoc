@@ -1,9 +1,11 @@
 [[live_stack]]
 == Live stack
 
-* Runnable.com
-* Heroku
-* Virtualbox
+=== Runnable.com
+
+=== Heroku
+
+=== Virtualbox
 
 [[live_stack_shoutout]]
 [role="shoutout"]

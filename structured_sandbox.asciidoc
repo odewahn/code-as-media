@@ -8,14 +8,32 @@ These sites, which are typically geared towards learning a specific language or 
 ** Granularly structured.  The courses are usually very well structured, based around tasks or specific excercises.
 ** Game-ifable.  It's very simple to award badges and whatnot based on completion. 
 * Weaknesses
-** Rigid.  These tend towards lowest common demoninator topics that can only be expressed in simple, step-by-step tasks
 ** Complex to develop.  The test suites require a specialized author who can write the tests.
+** Rigid.  These tend towards lowest common demoninator topics that can only be expressed in simple, step-by-step tasks
 
 Examples include:
 
-* Codecademy 
-* Codeschool (Rails for Zombies, Try Objective-C, etc)
-* Various "try" sites
+=== Codecademy 
+
+http://www.codecademy.com/[Codecademy] offers tutorials in JavaScript, Python and Ruby.  The tutorials are very tightly structured into small chunks, each with an associated action (like defining a string).  The author uses their custom CMS to create both the narrative material as well as the "unit tests" that describe the correct answer.  While the classes have generated a lot of buzz and garnered many signups, they have a high incompletion rate.
+
+image::images/codecademy.com[]
+
+=== Codeschool (Rails for Zombies, Try Objective-C, etc)
+
+http://tryobjectivec.codeschool.com/levels/1/challenges/1[CodeSchool], like codecademy, provides guided tours through various languages.  Unlike CodeSchool, each course or class is individually branded.  For example, the jQuery class has an Airline/adventure feel, while the http://tryobjectivec.codeschool.com/levels/1/challenges/1[Objective-C] class has a retro videogame theme.
+
+.CodeSchools jQuery Class.  Note the traditional layout.
+image::images/codeschool_jquery.png[]
+
+.CodeSchool's Objective-C class.  Note the 
+image::images/codeschool_objc.png[]
+
+=== Try Redis
+
+http://try.redis.io/[Try Redis!] walks you through the redis database.  The interface is purely text based, making it feel a bilt like an old text adventure game, like Zork.
+
+image:images/tryredis.png[]
 
 [[structured_sandbox_shoutout]]
 [role="shoutout"]
