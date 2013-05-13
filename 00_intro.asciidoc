@@ -1,12 +1,13 @@
-== Patterns of Code as Media
+[[introduction]]
+== Introduction
 
 This collection is a living catalog instances in which code is represented not for its functional or utilitarian value (i.e., does it work, how does it perform, etc), but rather as a media object in and of its own right.  In other words, we're not interested so much in the code itself, but how to we communicate *about* the code, so that people understand or learn either what it does or the topic to which it pertains.  This includes:
 
+* <<unstructured_sandbox, Unstructured sandbox>>.  Examples of unstructured sites that have interactive code sandboxes as part of the learning experience.  The sandbox allows you to try an example, but does not force or require you to take any specific actions before you can proceed to the next step.
+* <<structured_sandbox, Structured sandbox>>.  These sites provide a live sandbox tied to a proscribed course of steps through the material.  You typically have a very specific excercise to complete before you can proceed to the next step in the learning process.
 * <<sharing, Sharing>>. Examples of how code can be shared with others for commentary and discussion.
 * <<formatting_and_annotation, Formatting and annotation (literate programming)>>.  Examples of decorating the code listing for improved readability.
 * <<execution_and_flow, Execution and flow>>.  Examples that illustrate how the execution or structure of code.
-* <<structured_sandbox, Structured sandbox>>.  Examples of highly structured "guided tours" of a language or tool within the browser.
-* <<unstructured_sandbox, Unstructured sandbox>>.  In browser environment. Examples of unstructured sites that have code windows at certain intervals.
 * <<live_stack, Live stack>>. Examples of full language and tool stacks, that might either be in-browser, PaaS, or downloadable environments.
 * <<finding_and_searching, Finding and searching>>.  Examples of sites related to finding specific examples or reference material.
 * <<evolution, Evolution>>.  Examples of how code is shown to change or evolve over time.

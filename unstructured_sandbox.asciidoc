@@ -11,7 +11,7 @@ Examples include:
 
 [[ipython]]
 .http://ipython.org/notebook.html[iPython Notebook] is a tool for viewing python in the browser.  The author writes in an integrated environment (the native format is JSON) that allows text, euqations, and live code.  (The code executes on a remote server.)  The output of the code is presented in a terminal style format.  One of the other really nice features is that it is simple to embed images, like those generated from numerical or scientific tools like numpy or scipy.
-image::images/ipython.png[]
+image::images/ipython_notebook.png[]
 
 
 [[khan_academy]]
