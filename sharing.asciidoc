@@ -1,4 +1,5 @@
-=== Sharing
+[[sharing]]
+== Sharing
 
 The sharing category covers different ways that people share code to others (duh!).  They can range from simple (like posting something on a blog) to complex, but the basic idea is that these are ways people send out snippets or full worked examples and get feedback.
 
