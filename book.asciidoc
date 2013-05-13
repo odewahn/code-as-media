@@ -2,7 +2,7 @@
 
 = Patterns of Code as Media
 
-include::00_intro.asciidoc[]
+include::readme.asciidoc[]
 
 include::unstructured_sandbox.asciidoc[]
 
