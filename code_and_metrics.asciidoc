@@ -5,7 +5,7 @@ These are services that evaluate a given code repo and create some ancillary mat
 
 === CodeClimate (https://codeclimate.com/)
 
-=== Documentation generators
+=== Documentation Generators
 
 This section covers tools that build documentation directly from the source code itself.  This idea, called http://en.wikipedia.org/wiki/Literate_programming[literate programming], was invented by Donald Knuth as a way to create self-documenting programs.  The technique is used by many languages to create reference and API documents and sites. 
 
