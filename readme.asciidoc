@@ -14,8 +14,11 @@ The current patterns are:
 * <<finding_and_searching, Finding and Searching>>.  Examples of sites related to finding specific examples or reference material.
 * <<evolution, Evolution>>.  Examples of how code is shown to change or evolve over time.
 
+The final chapter is a section of sites that apply these ideas, or are just really interesting for some reason.  You can find this at:
 
-The catalog is documents specific sites or examples of each category in an effort to help understand the full space of code commentary and activity.  
+* <<projects, Projects>>
+
+The catalog is documents specific sites or examples of each category in an effort to help understand the full space of code commentary and activity.
 
 
 
