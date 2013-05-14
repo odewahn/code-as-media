@@ -21,3 +21,5 @@ include::evolution.asciidoc[]
 include::finding_and_searching.asciidoc[]
 
 include::code_and_metrics.asciidoc[]
+
+include::projects.asciidoc[]
