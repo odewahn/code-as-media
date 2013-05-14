@@ -11,9 +11,9 @@ image::images/runnable.png[]
 === Heroku
 http://www.heroku.com[Heroku] is a platform as a service that allows you to easily deploy an specific platform using git.  When you push the repo up, Heroku determines which platform you're using and provisions the machine accordingly.  For examepl, if your app uses a Rails, Heroku will provision a server with a rack-server, install your gem bundles, and start the service.  Heroku also has an extensive ecosystem of add on services, such as databases, email, and caching solutions.   
 
-=== Virtualbox
+=== VirtualBox
 
-[Virtualbox] is a free tool for running virtual images.  With Virtualbox, you can run a fully, preconfigured machine image that has been set up with a complete stack of services.  All data, software, and startup information can be pre-configured.  Once the image is downloaded, the machine image runs completely locally.  The advantage is that Virtualbox allows you to ship a completely custom environment that an end user can download and run. 
+https://www.virtualbox.org/[VirtualBox] is a free tool for running virtual images.  With Virtualbox, you can run a fully, preconfigured machine image that has been set up with a complete stack of services.  All data, software, and startup information can be pre-configured.  Once the image is downloaded, the machine image runs completely locally.  The advantage is that Virtualbox allows you to ship a completely custom environment that an end user can download and run. 
 
 === Vagrant 
 
