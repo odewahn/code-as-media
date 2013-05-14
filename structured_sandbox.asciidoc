@@ -1,5 +1,5 @@
 [[structured_sandbox]]
-== Structured sandbox
+== Structured Sandbox
 
 These sites, which are typically geared towards learning a specific language or tool, provides a guided introduction using a live code sandbox.  For example, you're asked to declare a variable of a certain type, compute a certain value, or perform some task on a data structure (like reverse an array).  Typically, these steps are executed using some sort of testing suite to confirm that the user performed the task.
 
