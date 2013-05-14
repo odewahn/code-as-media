@@ -8,14 +8,24 @@ Examples include:
 
 === Pygments (Syntax highlighting)
 
-[Pygments] is a post-processor that applies syntax highlighting for a waide range of languages.  (Some 200+ are supported.)  The key advantage is that it makes code more readable.
+http://pygments.org/[Pygments] is a post-processor that applies syntax highlighting for a wide range of languages.  (Some 200+ are supported.)  The key advantage is that it makes code more readable.
 
+.Source code colorized using pygments
+image::images/pygments.png[]
 
 === Docco
 
-Docco is a Jeremy Ashkenas project that takes comments embedded in source code and turns them into annotations that appear on the sidepanel of the listing.  This allows the reader to more easily scan the code and read the comments in a way that is visually more appealing than having the comments appear purely inline.
+http://jashkenas.github.io/docco/[Docco] is a Jeremy Ashkenas project that takes comments embedded in source code and turns them into annotations that appear on the sidepanel of the listing.  This allows the reader to more easily scan the code and read the comments in a way that is visually more appealing than having the comments appear purely inline.
 
-*add screenshot from the nauture of code*
+.Source code comments formatted using docco
+image::images/docco.png[]
+
+=== Ace editor
+
+The http://jashkenas.github.io/docco/[Ace Editor] is a text editor built in the style of textmate or sublime.  It has a number of useful features, like syntax highlighting (around 15 languages), line numbering, a rich API, and a robust set of themes.   A number of sites use it to show listings, even if all you can do is copy the code from the box.
+
+image::images/ace_editor.png[]
+
 
 [[formatting_and_annotation_shoutout]]
 [role="shoutout"]

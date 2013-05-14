@@ -1,17 +1,17 @@
 [[evolution]]
 == Code evolution
 
-These show how code changes or progresses over time.  For example, you might break a complex example down into a series of steps.  At each change point, you show how the code changes.
+Examples in this category show how code evolves over time.  For example, you might break a complex example down into a series of steps.  At each change point, you show how the code progresses between steps.
 
 === Text-based description
 
-This is the standard "tech book approach" -- have a narrative series of listing that shows the code at each point, and describes the changes between each.  There's no particular figure required for this.
+This is the standard tech book approach -- have a narrative series of listing that shows the code at each point, and describes the changes between each.  There's no particular figure required for this.
 
 === Meteor book
 
 http://www.discovermeteor.com/[The Meteor Book] has a nice system that uses commits at each checkpoint so that the user can check out the code that corresponds to a specific section of the example.  The nice thing about this method is that it allows the author make changes in a natural way that is similar to how they would work with code.
 
-image::images/metero_book.png[]
+image::images/meteor_book.png[]
 
 === GitHub network view
 
