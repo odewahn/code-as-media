@@ -23,7 +23,7 @@ image::images/jsbin.png[]
 
 https://gist.github.com[gist] and http://pastebin.com/[pastebin] are services for sharing snippets of code or text.  (Some people even write whole essays with them.)  Once you create the snippet, you can get an embed code that you can use to embed the code onto a blog or other site.  People can then copy the gist to their own account so that they can modify it.
 
-image::images/gist.png[]
+image::images/gists.png[]
 
 
 [[sharing_shoutout]]
