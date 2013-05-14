@@ -1,7 +1,7 @@
 [[execution_and_flow]]
 == Modeling Execution and Flow
 
-These sites show how the flow of a program can be revealed to deepen our understanding.
+These sites reveal the flow and state of a program to deepen our understanding.
 
 === Learnable Programming
 
