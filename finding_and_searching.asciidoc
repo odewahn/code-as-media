@@ -1,7 +1,7 @@
 [[finding_and_searching]]
-== Finding and searching
+== Finding and Searching
 
-=== GitHub code search
+=== GitHub Code Search
 
 === Stackoverflow
 
