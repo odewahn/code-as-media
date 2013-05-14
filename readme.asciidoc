@@ -5,13 +5,13 @@ This work is a living catalog of sites where code is a media onject in and of it
 
 The current patterns are:
 
-* <<unstructured_sandbox, Unstructured sandbox>>.  Examples of unstructured sites that have interactive code sandboxes as part of the learning experience.  The sandbox allows you to try an example, but does not force or require you to take any specific actions before you can proceed to the next step.
-* <<structured_sandbox, Structured sandbox>>.  These sites provide a live sandbox tied to a proscribed course of steps through the material.  You typically have a very specific excercise to complete before you can proceed to the next step in the learning process.
+* <<unstructured_sandbox, Unstructured Sandbox>>.  Examples of unstructured sites that have interactive code sandboxes as part of the learning experience.  The sandbox allows you to try an example, but does not force or require you to take any specific actions before you can proceed to the next step.
+* <<structured_sandbox, Structured Sandbox>>.  These sites provide a live sandbox tied to a proscribed course of steps through the material.  You typically have a very specific excercise to complete before you can proceed to the next step in the learning process.
 * <<sharing, Sharing>>. Examples of how code can be shared with others for commentary and discussion.
-* <<formatting_and_annotation, Formatting and annotation>>.  Examples of decorating the code listing for improved readability.
-* <<execution_and_flow, Execution and flow>>.  Examples that illustrate how the execution or structure of code.
-* <<live_stack, Live stack>>. Examples of full language and tool stacks, that might either be in-browser, PaaS, or downloadable environments.
-* <<finding_and_searching, Finding and searching>>.  Examples of sites related to finding specific examples or reference material.
+* <<formatting_and_annotation, Formatting and Annotation>>.  Examples of decorating the code listing for improved readability.
+* <<execution_and_flow, Execution and Flow>>.  Examples that illustrate how the execution or structure of code.
+* <<live_stack, Live Stack>>. Examples of full language and tool stacks, that might either be in-browser, PaaS, or downloadable environments.
+* <<finding_and_searching, Finding and Searching>>.  Examples of sites related to finding specific examples or reference material.
 * <<evolution, Evolution>>.  Examples of how code is shown to change or evolve over time.
 
 
