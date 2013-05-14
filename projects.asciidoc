@@ -10,7 +10,7 @@ http://gamingjs.com/ice/[gamingjs] is ...
 
 === pythonmonk
 
-http://pythonmonk.com/[pythonmonk] is a free, interactive tutorials to help you learn Python idioms in your browser.  It uses an unstructured sandbox approach to guide you through a series of lessons.  It's free.
+http://pythonmonk.com/[pythonmonk] is a free, interactive tutorials to help you learn Python idioms in your browser.  It uses an <<unstructured_sandbox, unstructured sandbox>> approach to guide you through a series of lessons.  It's free.
 
 image:images/pythonmonk.png[]
 
