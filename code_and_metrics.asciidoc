@@ -8,7 +8,11 @@ image::images/service_hook.png[]
 
 Examples of metrics include:
 
-=== CodeClimate (https://codeclimate.com/)
+=== CodeClimate 
+
+https://codeclimate.com/[CodeClimate] provides automated Ruby code review.  You give it a repo by (among other ways) creating a GitHub service hook, and it will give you back some reports.  It's a paid service with a tiered pricing scheme.
+
+image::images/codeclimate.png[]
 
 === Documentation Generators
 
