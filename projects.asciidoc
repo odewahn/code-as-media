@@ -7,6 +7,15 @@ This chapter contains interesting projects that either illustrate the patterns d
 
 http://gamingjs.com/ice/[gamingjs] is sandbox-like code editor that accompanies a book published by the Prags. We don't know a lot about this yet. It uses the Ace Editor.
 
+=== Nature of Code
+
+http://natureofcode.com/[Nature of Code] is Dan Shiffman's interactive book on modeling natural systems in Processing.  It's got a number of really cool features:
+
+* Running processing sketches that are sourced in at build time
+* An open github repo for contributors at https://github.com/shiffman/The-Nature-of-Code[shiffman/The-Nature-of-Code]
+* An innovative payment system that allows you to set your own price
+
+image::images/natureofcode.png[]
 
 === pythonmonk
 
@@ -14,6 +23,11 @@ http://pythonmonk.com/[pythonmonk] is a free, interactive tutorials to help you 
 
 image:images/pythonmonk.png[]
 
+=== voxeljs
+
+http://voxeljs.com/[voxeljs] is a javascript-based minecraft clone.  It's a wonderful, sprawling project that has a game player, creature creators, world editors, and project sharing.  It's not a documentation project so much as it is an example of an emerging application, but it's so cool that we need to pay attention to.
+
+image::images/voxeljs.png[]
 
 
 
