@@ -5,7 +5,7 @@ This chapter contains interesting projects that either illustrate the patterns d
 
 === gamingjs
 
-http://gamingjs.com/ice/[gamingjs] is ...
+http://gamingjs.com/ice/[gamingjs] is sandbox-like code editor that accompanies a book published by the Prags. We don't know a lot about this yet. It uses the Ace Editor.
 
 
 === pythonmonk
