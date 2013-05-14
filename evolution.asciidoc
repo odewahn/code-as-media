@@ -1,5 +1,5 @@
 [[evolution]]
-== Code evolution
+== Code Evolution
 
 Examples in this category show how code evolves over time.  For example, you might break a complex example down into a series of steps.  At each change point, you show how the code progresses between steps.
 
