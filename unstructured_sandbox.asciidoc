@@ -7,7 +7,7 @@ An unstructured sandbox provides an open ended, terminal-like model for entering
 ** Editorial flexibility -- allows the author to insert whatever types of content he or she will best describe the topic
 * Weaknesses
 ** Design inflexibility.  These often appear as iframes or something disruptive to the overall experience.
-** Non-integrated.  Unless care is taken, the sandbox can feel tacked on editorially as an afterthought.
+** Non-integrated.  Unless care is taken, the sandbox can feel like an editorial afterthought.
 
 Examples include:
 

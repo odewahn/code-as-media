@@ -1,0 +1,25 @@
+[[projects]]
+== Projects
+
+This chapter contains interesting projects that either illustrate the patterns described in the prior chapters, or are simply interesting examples of new ways people are learning to code.  (Versus using a plain old book or reference website.)  If you find a new project, add it here and try to note what is interesting about it, and which (if any) of the patterns it uses.
+
+=== gamingjs
+
+http://gamingjs.com/ice/[gamingjs] is ...
+
+
+=== pythonmonk
+
+http://pythonmonk.com/[pythonmonk] is a free, interactive tutorials to help you learn Python idioms in your browser.  It uses an unstructured sandbox approach to guide you through a series of lessons.  It's free.
+
+image:images/pythonmonk.png[]
+
+
+
+
+[[projects_shoutout]]
+[role="shoutout"]
+.Have a suggestion or comment?
+****
+Post suggestions or comments here.
+****
