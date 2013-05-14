@@ -7,6 +7,8 @@ This chapter contains interesting projects that either illustrate the patterns d
 
 http://gamingjs.com/ice/[gamingjs] is sandbox-like code editor that accompanies a book published by the Prags. We don't know a lot about this yet. It uses the Ace Editor.
 
+image::images/gamingjs.png[]
+
 === Nature of Code
 
 http://natureofcode.com/[Nature of Code] is Dan Shiffman's interactive book on modeling natural systems in Processing.  It's got a number of really cool features:
