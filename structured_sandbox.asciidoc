@@ -5,11 +5,11 @@ These sites, which are typically geared towards learning a specific language or 
 
 * Strengths
 ** Highly interactive.  A user usually cannot progress until they've successfully completed the coding step.
-** Granularly structured.  The courses are usually very well structured, based around tasks or specific excercises.
+** Granularly structured.  The courses are usually very well structured, based around tasks or specific exercises.
 ** Game-ifable.  It's very simple to award badges and whatnot based on completion. 
 * Weaknesses
 ** Complex to develop.  The test suites require a specialized author who can write the tests.
-** Rigid.  These tend towards lowest common demoninator topics that can only be expressed in simple, step-by-step tasks
+** Rigid.  These tend towards lowest common denominator topics that can only be expressed in simple, step-by-step tasks
 
 Examples include:
 

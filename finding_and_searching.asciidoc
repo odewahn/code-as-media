@@ -5,8 +5,6 @@
 
 https://github.com/search/advanced[GitHub Advanced Code Search] allows users to search for specific programming languages, file extensions, and more.
 
-image::images/github_search.png[]
-
 === Stack Overflow
 
 http://stackoverflow.com/[This site] describes itself as "a question and answer site for professional and enthusiast programmers."
