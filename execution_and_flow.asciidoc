@@ -1,5 +1,5 @@
 [[execution_and_flow]]
-== Modeling execution and flow
+== Modeling Execution and Flow
 
 These sites show how the flow of a program can be revealed to deepen our understanding.
 
@@ -11,13 +11,13 @@ image::images/learnable_programming.png[]
 
 Jeff Atwood also has a great article on this Victor's ideas called http://www.codinghorror.com/blog/2012/03/visualizing-code-to-fail-faster.html[Visualizing Code to Fail Faster].
 
-=== deprocess
+=== Deprocess
 
 http://benfry.com/deprocess/[Deprocess] is Ben Fry's visualization of code as it runs.  It's mostly an art piece, but it's an interesting way to think about how you'd watch code change as it runs.
 
 image::images/deprocess.png[]
 
-=== Stacktrace thing from Allen Noren
+=== Stacktrace Thing from Allen Noren
 
 I need to find this email from him...
 
