@@ -1,17 +1,24 @@
 [[formatting_and_annotation]]
-== Formatting and annotation
+== Formatting and Annotation
 
 This category covers the different ways that code is either formatted or annotated.  This can take the form of color coding the syntax, or pulling out comments to create new documentation. 
 
 Examples include:
 
 
-=== Pygments (Syntax highlighting)
+=== Syntax Highlighting
+
+==== Pygments
 
 http://pygments.org/[Pygments] is a post-processor that applies syntax highlighting for a wide range of languages.  (Some 200+ are supported.)  The key advantage is that it makes code more readable.
 
 .Source code colorized using pygments
 image::images/pygments.png[]
+
+==== Opal
+
+http://wiki.freitagsrunde.org/Opal_Syntax-Highlighting[Opal] is another highlighter. Dan Allen has taken an interest https://github.com/opal/opal/pull/246[in this project] and may use it with asciidoctor.
+
 
 === Docco
 
@@ -20,7 +27,7 @@ http://jashkenas.github.io/docco/[Docco] is a Jeremy Ashkenas project that takes
 .Source code comments formatted using docco
 image::images/docco.png[]
 
-=== Ace editor
+=== Ace Editor
 
 The http://jashkenas.github.io/docco/[Ace Editor] is a text editor built in the style of textmate or sublime.  It has a number of useful features, like syntax highlighting (around 15 languages), line numbering, a rich API, and a robust set of themes.   A number of sites use it to show listings, even if all you can do is copy the code from the box.
 
