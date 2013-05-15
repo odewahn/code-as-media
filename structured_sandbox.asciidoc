@@ -1,7 +1,7 @@
 [[structured_sandbox]]
 == Structured Sandbox
 
-These sites, which are typically geared towards learning a specific language or tool, provides a guided introduction using a live code sandbox.  For example, you're asked to declare a variable of a certain type, compute a certain value, or perform some task on a data structure (like reverse an array).  Typically, these steps are executed using some sort of testing suite to confirm that the user performed the task.
+These sites, which are typically geared towards beginners learning a language or tool, provide a guided introduction using a live code sandbox.  For example, you're asked to declare a variable of a certain type, compute a certain value, or perform some task on a data structure (like reverse an array).  Typically, these steps are executed using some sort of testing suite to confirm that the user performed the task.
 
 * Strengths
 ** Highly interactive.  A user usually cannot progress until they've successfully completed the coding step.
@@ -10,6 +10,7 @@ These sites, which are typically geared towards learning a specific language or 
 * Weaknesses
 ** Complex to develop.  The test suites require a specialized author who can write the tests.
 ** Rigid.  These tend towards lowest common denominator topics that can only be expressed in simple, step-by-step tasks
+** Tend to be slow and plodding, and it's difficult (impossible, really) to jump around. A professional wants to be able to extract reliable information quickly, make connections, refer back to other parts of the docs, etc.
 
 Examples include:
 

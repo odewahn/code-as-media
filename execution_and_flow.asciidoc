@@ -5,15 +5,15 @@ These sites reveal the flow and state of a program to deepen our understanding.
 
 === Learnable Programming
 
-http://worrydream.com/#!/LearnableProgramming[Learnable Programming] is Bret Victor essay about coding environments.  One of its key points is that you should be able to see the progression of code across time as the program executes.  So, if you have a variable, you might have a timeline that shows how the value changes on each iteration.  It's not clear from the essay if there is an actual editor of IDE he proposes.
+http://worrydream.com/#!/LearnableProgramming[Learnable Programming] is a Bret Victor essay about coding environments.  One of its key points is that you should be able to see the progression of code state across time as the program executes.  So, if you have a variable, you might have a timeline that shows how the value changes on each iteration.  It's not clear from the essay if there is an actual editor of IDE he proposes, or if these are concepts.
 
 image::images/learnable_programming.png[]
 
-Jeff Atwood also has a great article on this Victor's ideas called http://www.codinghorror.com/blog/2012/03/visualizing-code-to-fail-faster.html[Visualizing Code to Fail Faster].
+Jeff Atwood also has a great article on Victor's ideas called http://www.codinghorror.com/blog/2012/03/visualizing-code-to-fail-faster.html[Visualizing Code to Fail Faster].
 
 === Deprocess
 
-http://benfry.com/deprocess/[Deprocess] is Ben Fry's visualization of code as it runs.  It's mostly an art piece, but it's an interesting way to think about how you'd watch code change as it runs.
+http://benfry.com/deprocess/[Deprocess] is Ben Fry's visualization of a program flow.  It's mostly an art piece, but it's an interesting way to think about how you'd watch code change as it runs.
 
 image::images/deprocess.png[]
 

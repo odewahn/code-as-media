@@ -1,10 +1,7 @@
 [[formatting_and_annotation]]
 == Formatting and Annotation
 
-This category covers the different ways that code is either formatted or annotated.  This can take the form of color coding the syntax, or pulling out comments to create new documentation. 
-
-Examples include:
-
+This category covers the different ways that code is either formatted or annotated.  This can take the form of color coding the syntax, or pulling out comments to create new documentation. Examples include:
 
 === Syntax Highlighting
 

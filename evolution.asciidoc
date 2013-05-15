@@ -5,7 +5,7 @@ Examples in this category show how code evolves over time.  For example, you mig
 
 === Text-Based Description
 
-This is the standard tech book approach -- have a narrative series of listing that shows the code at each point, and describes the changes between each.  There's no particular figure required for this.
+This is the standard tech book approach -- have a narrative series of listing that shows the code at each point, and describe the changes between each.
 
 === Meteor Book
 

@@ -1,7 +1,9 @@
 [[code_and_metrics]]
 == Code Analysis and Metrics
 
-These are services that evaluate a given code repo and create some ancillary material for it.  For example, a service might compute various metrics (code coverage for a test suite, etc), project management and alerts (for example, it sends a message to a chat service when someone commits), documentation (rebuilds automated docs on each commit), etc.  These are often implemented as webhooks within a CI server (Jenkins, etc) or in the VCS (like a GitHub service hook).  These services can either be free or paid.  If they're paid, they're typically implemented by having the user register for a paid service and enter some sort of authorization token into the web hook.  <<service_hook>>, for example, shows how  paid service is configured in GitHub's "Service Hooks."
+These are services that evaluate a code repo and create ancillary material for it.  For example, a service might compute various metrics (code coverage for a test suite, etc), project management assets (for example, it sends a message to a chat service when someone commits), documentation (rebuilds automated docs on each commit), or other software engineering-related items.  
+
+The tools are often implemented as webhooks within a CI server (Jenkins, etc) or in the underlying version control system.  These services can either be free or paid.  If they're paid, they're typically implemented by having the user register for a paid service and enter some sort of authorization token into the web hook.  <<service_hook>>, for example, shows how  paid service is configured in GitHub's "Service Hooks."
 
 [[service_hook]]
 image::images/service_hook.png[]

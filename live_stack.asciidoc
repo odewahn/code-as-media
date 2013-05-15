@@ -1,14 +1,16 @@
 [[live_stack]]
 == Live Stack
 
-The "live stack" is a full stack environment that runs live.  Unlike tools like Codecademy or JSBin, a live stack has a number of different tools, such as a database, development tools, startup services, an editor, and other tools required to run a complete application.  In many ways, a live stack if a everything required to run a complete development environment.
+The "live stack" is a full stack environment that runs live.  Unlike tools like Codecademy or JSBin, a live stack has a number of different tools, such as a database, development tools, startup services, an editor, and other tools required to run a complete application.  In many ways, a live stack is everything required to run a complete development environment.
 
 === Runnable.com
+
 http://runnable.com/[Runnable] is an IDE and execution environment built into the browser.  It provides an Ace-like editor, a file manager, and the ability to push code to a server for execution.  In many ways, it's sort of like an Atlas for Heroku -- you can write code in the IDE and push it so that it runs live.  It supports a number of target languages, include Node, PHP, Ruby, and Python.
  
 image::images/runnable.png[]
 
 === Heroku
+
 http://www.heroku.com[Heroku] is a platform as a service that allows you to easily deploy an specific platform using git.  When you push the repo up, Heroku determines which platform you're using and provisions the machine accordingly.  For example, if your app uses a Rails, Heroku will provision a server with a rack-server, install your gem bundles, and start the service.  Heroku also has an extensive ecosystem of add on services, such as databases, email, and caching solutions.   
 
 === VirtualBox

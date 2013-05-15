@@ -1,7 +1,7 @@
 [[projects]]
 == Projects
 
-This chapter contains interesting projects that either illustrate the patterns described in the prior chapters, or are simply interesting examples of new ways people are learning to code.  (Versus using a plain old book or reference website.)  If you find a new project, add it here and try to note what is interesting about it, and which (if any) of the patterns it uses.
+This chapter contains interesting projects that illustrate patterns described in  prior chapters and show interesting examples of new ways people are learning to code.  (Versus using a plain old book or reference website.)  If you find a new project, add it here and try to note what is interesting about it, and which (if any) of the patterns it uses.
 
 === Coderpad
 
