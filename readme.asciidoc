@@ -18,18 +18,15 @@ Each pattern has 4-5 canonical examples.  The final chapter lists sites that app
 
 * <<projects, Projects>>
 
+=== Segmenting Learners
 
+We tend to think of "beginner" and "expert" in a topic rather one dimensionally.  You're either a beginner in JavaScript, or you're an expert.  But, there are really two dimensions: the one we just noted (someone's knowledge of a specific topic) and the background knowledge they already bring to that area.  <<learner_segmentation>> illustrates this breakdown.
 
+image::images/user_framework.png[]
 
+Here are a few observations on the 4 quadrants:
 
-
-
-
-
-
-
-
-
-
-
-
+* Quadrant I is for people who don't know a language and don't have any prior experience.  This is probably Codecademy's core audience -- people seeking step by step with as few distractions as possible.  So, things like "Download this file and run something in the terminal" or "Open the file in a text editor" are way beyond what their capacity.  They've never even heard of this stuff.  This is why codecademy is so compelling to these people -- you can get an immediate win without being frustrated by a bunch of things you don't know.
+* Quadrant II is for people who have become familiar with a topic, but they've not really deeply mastered it in any way.  So, you might have gone through all the Codecademy courses and earned all the badges, but you still have no idea what a text editor is, how to use git (or maybe even a command line), or git.  Basically, you know a tool but not the whole ecosystem of tools required to actually do anything useful.  This might also be where first year ITP students are -- you can do some great stuff in a contained environment like processing, but there's a host of other background info (git, heroku, sublime, data structures, etc) that you haven't quite mastered.
+* Quadrant III is for people who are starting to learn a new topic, but they've already mastered one other toolset in it's entirety.  So, these are people who are new to Ruby, but already know Python.  You don't have to tell people how to use a text editor or what the command line is -- they already know it and it's assumed.  For these people, an unstructured sandbox is fine -- they want to focus on the language or idea, and they'll worry about the environment later.  They might also want a virtual image to play around with that's already pre-configured, just to jumpstart the process.
+* Quadrant IV is for people who are experts in a topic and also deeply understand the tools.  These are people for whom a virtual image is a convenience, but they'd probably be just as happy with some minimalist instructions.  These are people,in Adam's earlier comment, are reading entire books about pointers in C.
