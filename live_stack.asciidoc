@@ -1,7 +1,7 @@
 [[live_stack]]
 == Live Stack
 
-The "live stack" is a full stack environment that runs live.  Unlike tools like Codecademy or JSBin, a live stack has a number of different tools, such as a database, development tools, startup services, an editor, and other tools required to run a complete application.  In many ways, a live stack is everything required to run a complete development environment.
+The "live stack" is a full stack environment that runs either in the browser or as a virtual machine.  It's the most sophisticated and flexible of all the environments, but also the most complex.  Unlike tools like Codecademy or JSBin, a live stack has a number of different tools, such as a database, development tools, startup services, an editor, and other tools required to run a complete application.  In many ways, a live stack is everything required to run a complete development environment.
 
 === Runnable.com
 

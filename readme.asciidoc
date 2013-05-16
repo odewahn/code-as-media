@@ -7,10 +7,10 @@ Each chapter covers a specific pattern, along with multiple sample sites that sh
 
 * <<unstructured_sandbox, Unstructured Sandbox>>.  An unstructured sandbox allows you to try your code right in the browser, but does not force or require you to take any specific actions before you can proceed to the next step.
 * <<structured_sandbox, Structured Sandbox>>.  Sites that provide a structured sandbox also allow you to try code in the browser, but proscribe how you step through material.  You typically have a very specific exercise to complete before you can proceed to the next step in the learning process.
+* <<live_stack, Live Stack>>. Examples of full language and tool stacks, that might either be in-browser, PaaS, or downloadable environments.
 * <<sharing, Sharing>>. Examples of how code can be shared with others for commentary and discussion.
 * <<formatting_and_annotation, Formatting and Annotation>>.  Examples of decorating the code listing for improved readability.
 * <<execution_and_flow, Execution and Flow>>.  Examples that illustrate how the execution or structure of code.
-* <<live_stack, Live Stack>>. Examples of full language and tool stacks, that might either be in-browser, PaaS, or downloadable environments.
 * <<finding_and_searching, Finding and Searching>>.  Examples of sites related to finding specific examples or reference material.
 * <<evolution, Evolution>>.  Examples of how code is shown to change or evolve over time.
 
