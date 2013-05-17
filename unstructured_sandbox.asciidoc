@@ -41,6 +41,18 @@ http://chimera.labs.oreilly.com/[O'Reilly Chimera] is a new beta site for experi
 
 image::images/chimera.png[]
 
+=== Opal
+
+http://opalrb.org/[Opal] is a ruby to javascript compiler. It is source-to-source, making it fast as a runtime. Opal includes a compiler (which can be run in any browser), a corelib and runtime implementation. The corelib/runtime is also very small (10.8kb gzipped).
+
+image::images/opalrb.png[]
+
+=== try clojure
+
+http://tryclj.com/[Try Clojure] is an online sandbox for using Clojure, a dynamic programming language that targets the Java Virtual Machine (and the CLR, and JavaScript). It is designed to be a general-purpose language, combining the approachability and interactive development of a scripting language with an efficient and robust infrastructure for multithreaded programming.
+
+image::images/tryclojure.png[]
+
 
 [[unstructured_shoutout]]
 [role="shoutout"]
