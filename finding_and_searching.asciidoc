@@ -3,7 +3,11 @@
 
 === GitHub Code Search
 
-=== Stackoverflow
+https://github.com/search/advanced[GitHub Advanced Code Search] allows users to search for specific programming languages, file extensions, and more.
+
+=== Stack Overflow
+
+http://stackoverflow.com/[This site] describes itself as "a question and answer site for professional and enthusiast programmers."
 
 [[finding_and_searching_shoutout]]
 [role="shoutout"]

@@ -1,15 +1,16 @@
 [[structured_sandbox]]
-== Structured sandbox
+== Structured Sandbox
 
-These sites, which are typically geared towards learning a specific language or tool, provides a guided introduction using a live code sandbox.  For example, you're asked to declare a variable of a certain type, compute a certain value, or perform some task on a data structure (like reverse an array).  Typically, these steps are executed using some sort of testing suite to confirm that the user performed the task.
+These sites, which are typically geared towards beginners learning a language or tool, provide a guided introduction using a live code sandbox.  For example, you're asked to declare a variable of a certain type, compute a certain value, or perform some task on a data structure (like reverse an array).  Typically, these steps are executed using some sort of testing suite to confirm that the user performed the task.
 
 * Strengths
 ** Highly interactive.  A user usually cannot progress until they've successfully completed the coding step.
-** Granularly structured.  The courses are usually very well structured, based around tasks or specific excercises.
+** Granularly structured.  The courses are usually very well structured, based around tasks or specific exercises.
 ** Game-ifable.  It's very simple to award badges and whatnot based on completion. 
 * Weaknesses
 ** Complex to develop.  The test suites require a specialized author who can write the tests.
-** Rigid.  These tend towards lowest common demoninator topics that can only be expressed in simple, step-by-step tasks
+** Rigid.  These tend towards lowest common denominator topics that can only be expressed in simple, step-by-step tasks
+** Tend to be slow and plodding, and it's difficult (impossible, really) to jump around. A professional wants to be able to extract reliable information quickly, make connections, refer back to other parts of the docs, etc.
 
 Examples include:
 
@@ -19,7 +20,7 @@ http://www.codecademy.com/[Codecademy] offers tutorials in JavaScript, Python an
 
 image::images/codecademy.com[]
 
-=== Codeschool (Rails for Zombies, Try Objective-C, etc)
+=== Code School (Rails for Zombies, Try Objective-C, etc.)
 
 http://tryobjectivec.codeschool.com/levels/1/challenges/1[CodeSchool], like codecademy, provides guided tours through various languages.  Unlike CodeSchool, each course or class is individually branded.  For example, the jQuery class has an Airline/adventure feel, while the http://tryobjectivec.codeschool.com/levels/1/challenges/1[Objective-C] class has a retro videogame theme.
 

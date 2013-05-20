@@ -1,33 +1,32 @@
 [[introduction]]
 == Introduction
 
-This work is a living catalog of sites where code is a media onject in and of its own right.  In other words, we're not interested so much in the code itself (i.e., does it work, how does it perform, etc), but how to we communicate *about* the code or topic, so that people understand or learn either what it does or the topic to which it pertains.  Each chapter covers a specific pattern, along with multiple sample sites that show the ideas in action.  The goal is to begin to build a common vocabulary to think about how people learn to code and to understand the range of projects across the web.  
+This is a catalog of sites where code is a media object in and of its own right.  We're not interested so much in the code itself (i.e., does it work, how does it perform, etc), but how do we communicate *about* code: what are the best ways to see, learn, and understand a topic.  People are learning in new ways, and we want to understand the patterns that are emerging.  
 
-The current patterns are:
+Each chapter covers a specific pattern, along with multiple sample sites that show the ideas in action.  The goal is to begin to build a common vocabulary to think about new ways people are learning to code and to understand the range of projects across the web.  The current patterns are:
 
-* <<unstructured_sandbox, Unstructured sandbox>>.  Examples of unstructured sites that have interactive code sandboxes as part of the learning experience.  The sandbox allows you to try an example, but does not force or require you to take any specific actions before you can proceed to the next step.
-* <<structured_sandbox, Structured sandbox>>.  These sites provide a live sandbox tied to a proscribed course of steps through the material.  You typically have a very specific excercise to complete before you can proceed to the next step in the learning process.
+* <<unstructured_sandbox, Unstructured Sandbox>>.  An unstructured sandbox allows you to try your code right in the browser, but does not force or require you to take any specific actions before you can proceed to the next step.
+* <<structured_sandbox, Structured Sandbox>>.  Sites that provide a structured sandbox also allow you to try code in the browser, but proscribe how you step through material.  You typically have a very specific exercise to complete before you can proceed to the next step in the learning process.
+* <<live_stack, Live Stack>>. Examples of full language and tool stacks, that might either be in-browser, PaaS, or downloadable environments.
 * <<sharing, Sharing>>. Examples of how code can be shared with others for commentary and discussion.
-* <<formatting_and_annotation, Formatting and annotation>>.  Examples of decorating the code listing for improved readability.
-* <<execution_and_flow, Execution and flow>>.  Examples that illustrate how the execution or structure of code.
-* <<live_stack, Live stack>>. Examples of full language and tool stacks, that might either be in-browser, PaaS, or downloadable environments.
-* <<finding_and_searching, Finding and searching>>.  Examples of sites related to finding specific examples or reference material.
+* <<formatting_and_annotation, Formatting and Annotation>>.  Examples of decorating the code listing for improved readability.
+* <<execution_and_flow, Execution and Flow>>.  Examples that illustrate how the execution or structure of code.
+* <<finding_and_searching, Finding and Searching>>.  Examples of sites related to finding specific examples or reference material.
 * <<evolution, Evolution>>.  Examples of how code is shown to change or evolve over time.
 
+Each pattern has 4-5 canonical examples.  The final chapter lists sites that apply these ideas, or are just really interesting.  You can find this at:
 
-The catalog is documents specific sites or examples of each category in an effort to help understand the full space of code commentary and activity.  
+* <<projects, Projects>>
 
+=== Segmenting Learners
 
+We tend to think of "beginner" and "expert" in a topic rather one dimensionally.  You're either a beginner in JavaScript, or you're an expert.  But, there are really two dimensions: the one we just noted (someone's knowledge of a specific topic) and the background knowledge they already bring to that area.  <<learner_segmentation>> illustrates this breakdown.
 
+image::images/user_framework.png[]
 
+Here are a few observations on the 4 quadrants:
 
-
-
-
-
-
-
-
-
-
-
+* Quadrant I is for people who don't know a language and don't have any prior experience.  This is probably Codecademy's core audience -- people seeking step by step with as few distractions as possible.  So, things like "Download this file and run something in the terminal" or "Open the file in a text editor" are way beyond what their capacity.  They've never even heard of this stuff.  This is why codecademy is so compelling to these people -- you can get an immediate win without being frustrated by a bunch of things you don't know.
+* Quadrant II is for people who have become familiar with a topic, but they've not really deeply mastered it in any way.  So, you might have gone through all the Codecademy courses and earned all the badges, but you still have no idea what a text editor is, how to use git (or maybe even a command line), or git.  Basically, you know a tool but not the whole ecosystem of tools required to actually do anything useful.  This might also be where first year ITP students are -- you can do some great stuff in a contained environment like processing, but there's a host of other background info (git, heroku, sublime, data structures, etc) that you haven't quite mastered.
+* Quadrant III is for people who are starting to learn a new topic, but they've already mastered one other toolset in it's entirety.  So, these are people who are new to Ruby, but already know Python.  You don't have to tell people how to use a text editor or what the command line is -- they already know it and it's assumed.  For these people, an unstructured sandbox is fine -- they want to focus on the language or idea, and they'll worry about the environment later.  They might also want a virtual image to play around with that's already pre-configured, just to jumpstart the process.
+* Quadrant IV is for people who are experts in a topic and also deeply understand the tools.  These are people for whom a virtual image is a convenience, but they'd probably be just as happy with some minimalist instructions.  These are people,in Adam's earlier comment, are reading entire books about pointers in C.
