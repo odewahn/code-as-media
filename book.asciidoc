@@ -1,6 +1,6 @@
 :bookseries: maker4c
 
-= Patterns of Code as Media
+= Patterns of Code As Media
 
 include::readme.asciidoc[]
 
@@ -23,3 +23,5 @@ include::finding_and_searching.asciidoc[]
 include::code_and_metrics.asciidoc[]
 
 include::projects.asciidoc[]
+
+include::design_ideas.asciidoc[]
