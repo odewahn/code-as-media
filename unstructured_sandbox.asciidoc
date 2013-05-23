@@ -11,6 +11,13 @@ An unstructured sandbox provides an open ended, terminal-like model for entering
 
 Examples include:
 
+[[replit]]
+=== repl.it
+
+http://repl.it/[repl.it] is a tool that uses various compiled languages (python, ruby, and lua, among others).  The site offers a code runner, an output pane, a surprisingly wide selection on languages, and a nice selection of samples for each type.
+
+image::images/replit.png[]
+
 === iPython Notebook
 
 http://ipython.org/notebook.html[iPython Notebook] is a tool for viewing python in the browser.  The author writes in an integrated environment (the native format is JSON) that allows text, equations, and live code.  (The code executes on a remote server.)  The output of the code is presented in a terminal style format.  One of the other really nice features is that it is simple to embed images, like those generated from numerical or scientific tools like numpy or scipy.
@@ -29,6 +36,7 @@ http://scratch.mit.edu/projects/editor/?tip_bar=getStarted[Scratch] is an intera
 
 image::images/scratch.png[]
 
+[[jqfundamentals]]
 === JQFundamentals
 
 http://jqfundamentals.com/[jqfundamentals]is a site for teaching javascript.  It walks through a rich set of concepts that are illustrated with specific code examples.  You can click on a small icon on the example to open a live code editor where you can run the example.

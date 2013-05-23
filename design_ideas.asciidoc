@@ -2,24 +2,41 @@
 
 This is a compilation of ideas for different approaches we might take in making a live environment.\
 
-=== Code Terminal
+=== Code Sandbox
 
-In this, we'd use something like https://github.com/chrisdone/jquery-console[JQuery Console] to capture user input in the browser and then send it to an interpreter so it can be evaluated whenever someone hit enter.  The backend options are:
+Probably the most basic way to start is an <<unstructured_sandbox, unstructured sandbox>> that allows you to type a file in a box, press a "run" button, and view the output on a console.  (Basically, this is a <<replit, repl.it>> clone.)  The code could be executed by a couple of  backend options, such as:
 
 * Some https://github.com/kripken/emscripten[Emscripten] compiled version of Ruby, Python, etc
-* A backend processor on a remote server
+* A backend processor on a remote server.  Output from STDOUT could be pushed to the open window in real time using the Pusher API / websockets. 
 
-Here's an example of how this might look:
-
-image::images/terminal.png[]
-
-Alternatively, and maybe even preferably, we might have file-based approach, where you'd enter an entire file so that you could execute it, like this:
+Here's a sample design:
 
 image::images/terminal_filemode.png[]
 
-Note that in this version, you enter code into an ACE editor and then press the run button.  The output is directed to a collapsible output window in the sidebar.  Also, for fun, it has a "gist" button that would allow you to save this to a gist in your own github account.    
+Some key features include:
 
-=== Heroku Sandbox
+* You'd enter your entire file so that you could execute it
+* There would be a way to pre-populate a file
+* The output is directed to a collapsible output window in the sidebar.  
+* If you click run and the output window is collapsed, it should pop open
+* For fun, it has a "gist" button that would allow you to save this to a gist in your own github account.    
+
+We could also do a basic REPL terminal using https://github.com/chrisdone/jquery-console[JQuery Console] to capture user input in the browser and then send it to an interpreter so it can be evaluated whenever someone hit enter.  Here's an example of how this might look:
+
+image::images/terminal.png[]
+
+=== Surfacing the Sandbox
+
+Once we have a code sandbox, we need some way to surface it on a specific listing.  There are a variety of possibilities:
+
+* Every listing is in the sandbox.  This would probably cause performance issues.
+* The listings would be plain text, but you'd click an icon to pop open the sandbox.  This is how <<jqfundamentals, JQuery Fundamentals>> works, and it's really effective.
+
+Of the two, I'd tend to lean towards the "click an icon on the listing to pop open the example in a live editor."  Here's an example:
+
+image::images/surfacing_the_sandbox.png[]
+
+=== Heroku Sandbox (super theoretical!)
 
 This is a coding in an environment similar to http://runnable.com/[runnable.com].  You'd be able to buy a product in Atlas, fork it to your account, and then work with it as you read through a book.
 
@@ -30,7 +47,7 @@ The main parts are:
 Login to GitHub::
    This signs you into github and connects you to the correct repo.
 Push to Heroku::
-   I'm not sure if this is even possible, but the idea is that the user provides some heroku credentials that would allow a worker-like process to push the repo up to their account on Heroku.  We would capture STDOUT from the worked and send it into the console window so that you could see what was going on.
+   I'm not sure if this is even possible, but the idea is that the user provides some heroku credentials that would allow a worker-like process to push the repo up to their account on Heroku.  We would capture STDOUT from the worked and send it into the console window so that you could see what was going on.  The https://api-docs.heroku.com/[Heroku API] makes it seem like it would be possible to do this. We'd pass the user's API key to the worker, who would then be able to push the repo up to heroku. Note that the worker would have to be added as a collaborator to the app, but this can also be done through the API. So, there would be a "atlas" account on heroku that you could push stuff too.
 File Selector::
    This is like what's in Atlas now -- you'd be able to select files and navigate around.
 Editor::
