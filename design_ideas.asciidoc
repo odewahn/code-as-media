@@ -2,6 +2,18 @@
 
 This is a compilation of ideas for different approaches we might take in making a live environment.\
 
+=== Surfacing the Sandbox
+
+Once we have a code sandbox, we need some way to surface it on a specific listing.  There are a variety of possibilities:
+
+* Every listing is in the sandbox.  This would probably cause performance issues.
+* The listings would be plain text, but you'd click an icon to pop open the sandbox.  This is how <<jqfundamentals, JQuery Fundamentals>> works, and it's really effective.
+
+Of the two, I'd tend to lean towards the "click an icon on the listing to pop open the example in a live editor."  Here's an example:
+
+image::images/surfacing_the_sandbox.png[]
+
+
 === Code Sandbox
 
 Probably the most basic way to start is an <<unstructured_sandbox, unstructured sandbox>> that allows you to type a file in a box, press a "run" button, and view the output on a console.  (Basically, this is a <<replit, repl.it>> clone.)  The code could be executed by a couple of  backend options, such as:
@@ -21,20 +33,13 @@ Some key features include:
 * If you click run and the output window is collapsed, it should pop open
 * For fun, it has a "gist" button that would allow you to save this to a gist in your own github account.    
 
+=== Live Terminal
+
 We could also do a basic REPL terminal using https://github.com/chrisdone/jquery-console[JQuery Console] to capture user input in the browser and then send it to an interpreter so it can be evaluated whenever someone hit enter.  Here's an example of how this might look:
 
 image::images/terminal.png[]
 
-=== Surfacing the Sandbox
-
-Once we have a code sandbox, we need some way to surface it on a specific listing.  There are a variety of possibilities:
-
-* Every listing is in the sandbox.  This would probably cause performance issues.
-* The listings would be plain text, but you'd click an icon to pop open the sandbox.  This is how <<jqfundamentals, JQuery Fundamentals>> works, and it's really effective.
-
-Of the two, I'd tend to lean towards the "click an icon on the listing to pop open the example in a live editor."  Here's an example:
-
-image::images/surfacing_the_sandbox.png[]
+It's unclear how much value this has versus the code sandbox, but I guess it would be nice to have a simple way to let people type arbitrary commands.
 
 === Heroku Sandbox (super theoretical!)
 
