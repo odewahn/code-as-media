@@ -1,6 +1,23 @@
 == Design Ideas
 
-This is a compilation of ideas for different approaches we might take in making a live environment.
+This is a compilation of ideas for different approaches we might take in making a live environment.\
+
+=== Code Terminal
+
+In this, we'd use something like https://github.com/chrisdone/jquery-console[JQuery Console] to capture user input in the browser and then send it to an interpreter so it can be evaluated.  The backend options are:
+
+* Some https://github.com/kripken/emscripten[Emscripten] compiled version of Ruby, Python, etc
+* A backend processor on a remote server
+
+Here's an example of how this might looks:
+
+image::images/terminal.png[]
+
+Alternatively, we might have a more "file-like" approach, where you'd enter an entire file so that you could execute it, like this:
+
+image::images/terminal_filemode.png[]
+
+Note that in this version, you enter code into an ACE editor and then press the run button.  The output is directed to a collapsible output window in the sidebar.  Also, for fun, it has a "gist" button that would allow you to save this to a gist in your own github account.    
 
 === Heroku Sandbox
 

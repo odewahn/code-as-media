@@ -1,0 +1,17 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="718" measuredH="278" mockupW="567" mockupH="190">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TextArea" x="151" y="123" w="567" h="155" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text>irb%3E%20x%20%3D%20%5B1%2C2%2C3%2C4%2C5%5D%0A%20%3D%3E%20%5B1%2C%202%2C%203%2C%204%2C%205%5D%20%0Airb%20%3E%20x.each%20do%20%7Cy%7C%0Airb%20%3E%20%20%20%20%20p%20y*5%0Airb%20%3E%20%20%20end%0A5%0A10%0A15%0A20%0A25%0A%20%3D%3E%20%5B1%2C%202%2C%203%2C%204%2C%205%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="702" y="123" w="-1" h="155" measuredW="16" measuredH="100" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::ComboBox" x="610" y="96" w="-1" h="-1" measuredW="60" measuredH="93" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ruby%0APython%0AErlang%0AGo%0ARedis</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Canvas" x="151" y="88" w="567" h="35" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>
