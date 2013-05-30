@@ -14,9 +14,20 @@ Examples include:
 [[replit]]
 === repl.it
 
-http://repl.it/[repl.it] is a tool that uses various compiled languages (python, ruby, and lua, among others).  The site offers a code runner, an output pane, a surprisingly wide selection on languages, and a nice selection of samples for each type.
+http://repl.it/[repl.it] is a tool that uses various compiled languages (Python, Ruby, and Lua, among others).  The site offers a code runner, an output pane, a surprisingly wide selection on languages, and a nice selection of samples for each type.
 
 image::images/replit.png[]
+
+=== Programr
+http://www.programr.com/[Programr] runs languages in the browser including console (C++, C#, Java, Objective-C), web (PHP, Javascript, JQuery, Java Server Pages, AJAX), rich media (Flex, Processing), desktop (Java Swing), and database (SQL, SQLite). Others on the site include Ruby, Python, VB, AJAX, Flex, Flash, iOS, Android, and more.
+
+*Andrew's analysis:* "though it supports a pretty wide selection of languages, performance it pretty terrible.  Like, check out these ruby examples:
+
+http://www.programr.com/append-and-concatination
+http://www.programr.com/using-loop-1
+
+They each take 9-10 seconds to evaluate."
+
 
 === iPython Notebook
 
