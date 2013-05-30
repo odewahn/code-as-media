@@ -28,6 +28,8 @@ http://www.programr.com/using-loop-1
 
 They each take 9-10 seconds to evaluate."
 
+image::
+
 
 === iPython Notebook
 
