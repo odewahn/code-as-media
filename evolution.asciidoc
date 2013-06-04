@@ -15,6 +15,25 @@ image::images/meteor_book.png[]
 
 === GitHub Network View
 
+=== Learn.js
+Seth Vincent: 
+Of note: Check out the pricing packages and $10/month subscription.
+
+_ I’m using semantic versioning for my book about javascript: Every technical book should do the same._
+https://medium.com/i-m-h-o/2aa5cff10010
+
+$29: The Book Pack
+* pdf, epub, and mobi versions of Learn.js.
+* 30 minutes of one-on-one javascript tutoring.
+
+
+$89: The Super Bonus Pack
+* pdf, epub, and mobi versions of Learn.js.
+* 2 hours of one-on-one javascript tutoring.
+* Screencasts of the chapters as they are produced.
+
+The book: http://learnjs.io/
+
 [[evolution_shoutout]]
 [role="shoutout"]
 .Have a suggestion or comment?
