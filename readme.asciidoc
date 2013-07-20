@@ -20,7 +20,7 @@ Each pattern has 4-5 canonical examples.  The final chapter lists sites that app
 
 === Segmenting Learners
 
-We to think of "beginner" and "expert" in a topic rather one dimensionally.  You're either a beginner in JavaScript, or you're an expert.  But, there are really two dimensions: the one we just noted (someone's knowledge of a specific topic) and the background knowledge they already bring to that area.  <<learner_segmentation>> illustrates this breakdown.
+We think of "beginner" and "expert" in a topic rather one dimensionally.  You're either a beginner in JavaScript, or you're an expert.  But, there are really two dimensions: the one we just noted (someone's knowledge of a specific topic) and the background knowledge they already bring to that area.  <<learner_segmentation>> illustrates this breakdown.
 
 image::images/user_framework.png[]
 
