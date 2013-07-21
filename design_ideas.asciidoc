@@ -27,7 +27,7 @@ image::images/terminal_filemode.png[]
 
 Some key features include:
 
-* We'd use the Ace editor to let people create the lisings
+* We'd use the http://ace.ajax.org/[Ace editor] to let people create the lisings
 * You'd enter your entire file so that you could execute it
 * There would be a way to pre-populate a file
 * The output is directed to a collapsible output window in the sidebar.  
