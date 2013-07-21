@@ -14,7 +14,7 @@ Each chapter covers a specific pattern, along with multiple sample sites that sh
 * <<finding_and_searching, Finding and Searching>>.  Examples of sites related to finding specific examples or reference material.
 * <<evolution, Evolution>>.  Examples of how code is shown to change or evolve over time.
 
-Each pattern has 4-5 canonical examples.  The final chapter lists sites that apply these ideas, or are just really interesting.  You can find this at:
+Each pattern has 4 to 5 canonical examples.  The final chapter lists sites that apply these ideas, or are just really interesting.  You can find this at:
 
 * <<projects, Projects>>
 
