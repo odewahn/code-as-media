@@ -1,0 +1,47 @@
+== Spec for Live Code
+
+=== Marked up code listing
+
+The code is marked up in plain HTML with a couple of key attributes:
+
+* id.  This is a unique id for the example that the author provides
+* class.  The class is set to "live-code"; this is used by transform code to turn the example into a live environment
+* listing-type-data.  The type of code.
+
+It should look something like this:
+
+----
+<div id="example1" class="live-code" listing-type-data="rb">
+   def fib(n)
+     if n == 1
+       return 1
+     else
+       n*fib(n-1)
+     end
+   end
+   puts "fib(5) is #{fib(5)}"
+</div>
+----
+
+Note that the code could also be included from another source code file.
+
+=== The widget
+
+The transform code transforms the code sample into the widget, which looks like this:
+
+image::widget.png[]
+
+The widget has the following key parts:
+
+* Code editor.  This is the ACE editor pre-populated with either the code sample or with the copy that has been saved to localstorage on a previous visit.  It should have line numbers and syntax highlighting enabled.
+* Output window.  This shows the output from executing the program.
+* The "execute" button.  This passes the code to the execution engine and saves the contents of the code editor to localstorage (indexed by the listings id).  Clicking the button reloads the code from the original document.
+* The reset button.  This replaces whatever is in localstorage with the original code in the source file.
+
+=== The execution engine
+
+This part of the system interprets the code and passes the output back to the system.  Initially, we'll have this:
+
+* An interface that is sort of like an a abstract class.  You should be able to pass it the contents of the editing widow to a _perform_ method, and get back the results asynchronously (callback or pub/sub or Pusher) via a _receive_ method.  
+* The initial perform method will just hand ruby or python code off to emscriptem compiled ruby and python.  As the system evolves, it might hand the code off to some server side execution engine.  But, however we do it, the particulars need to be hidden behind some sort of abstraction.
+* The execution engine should also handle loading the emscriptem interpreter in some sort of smart way so that it is cached when it first downloads, and maybe even show some sort of progress bar.  But, something to make it pretty smooth.

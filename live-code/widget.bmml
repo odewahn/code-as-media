@@ -1,0 +1,49 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="868" measuredH="454" mockupW="769" mockupH="392">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TextArea" x="133" y="99" w="348" h="216" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text>%20%0Adef%20fib%28n%29%0A%20%20if%20n%20%3D%3D%201%0A%20%20%20%20return%201%0A%20%20else%0A%20%20%20%20n*fib%28n-1%29%0A%20%20end%0Aend%0Aputs%20%22fib%285%29%20is%20%23%7Bfib%285%29%7D%22</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="481" y="109" w="-1" h="206" measuredW="16" measuredH="100" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="497" y="109" w="355" h="206" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text>%3E%0A%3E%20fib%285%29%20is%20120</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Canvas" x="99" y="62" w="769" h="47" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::MultilineButton" x="780" y="72" w="72" h="27" measuredW="140" measuredH="59" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightFillTriangleIcon%7Csmall</icon>
+        <size>12</size>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="852" y="109" w="-1" h="206" measuredW="16" measuredH="100" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="156" y="272" w="273" h="182" measuredW="109" measuredH="123" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Code%20entry%20areas%20-%20should%20use%20the%20Ace%20editor.%20%20It%20should%20have%20line%20numbers%20and%20syntax%20highlighting%20based%20on%20the%20listing-type-data%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::StickyNote" x="570" y="272" w="273" h="182" measuredW="109" measuredH="123" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Output%20area--%20should%20show%20the%20results%20produced%20by%20the%20program.</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::TextArea" x="99" y="107" w="34" h="208" measuredW="200" measuredH="140" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>14540253</color>
+        <text>01%0A02%0A03%0A04%0A05%0A06%0A07%0A08%0A09%0A10%0A11%0A12%0A13</text>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::MultilineButton" x="688" y="72" w="77" h="27" measuredW="52" measuredH="59" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ReloadIcon%7Csmall</icon>
+        <size>12</size>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
