@@ -14,9 +14,34 @@ Examples include:
 [[replit]]
 === repl.it
 
-http://repl.it/[repl.it] is a tool that uses various compiled languages (python, ruby, and lua, among others).  The site offers a code runner, an output pane, a surprisingly wide selection on languages, and a nice selection of samples for each type.
+http://repl.it/[repl.it] is a tool that uses various compiled languages (Python, Ruby, and Lua, among others).  The site offers a code runner, an output pane, a surprisingly wide selection on languages, and a nice selection of samples for each type.
 
 image::images/replit.png[]
+
+=== Programr
+http://www.programr.com/[Programr] runs languages in the browser including console (C++, C#, Java, Objective-C), web (PHP, Javascript, JQuery, Java Server Pages, AJAX), rich media (Flex, Processing), desktop (Java Swing), and database (SQL, SQLite). Others on the site include Ruby, Python, VB, AJAX, Flex, Flash, iOS, Android, and more.
+
+*Andrew's analysis:* "though it supports a pretty wide selection of languages, performance it pretty terrible.  Like, check out these ruby examples:
+
+http://www.programr.com/append-and-concatination
+http://www.programr.com/using-loop-1
+
+They each take 9-10 seconds to evaluate."
+
+=== Twilio Pair Programming
+http://www.twilio.com/blog/2013/06/pair-programming-in-the-browser-with-twilio.html
+
+The tools for creating real-time applications in the browser are getting better all the time. Running node.js on the server, in conjunction with libraries like socket.io, makes it ridiculously simple to facilitate server push and event-driven communication between clients. Combine this with Twilio Client for voice communication in the browser and you have an incredibly powerful platform for facilitating communication between users of your application.
+
+Pair programming live with a distributed team is very much a possibility with some of the technologies we’ll look at today. Let’s run through a list of ingredients for this hack:
+* node.js on the server
+* The official twilio node module, available on npm
+* The Twilio Client JavaScript SDK (for the browser)
+* socket.io (both server and browser)
+* Express for routing HTTP requests and serving up responses
+* Ace code editor (browser)
+* AppFog (platform as a service for hosting)
+
 
 === iPython Notebook
 

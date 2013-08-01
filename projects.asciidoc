@@ -37,6 +37,25 @@ http://voxeljs.com/[voxeljs] is a javascript-based minecraft clone.  It's a wond
 
 image::images/voxeljs.png[]
 
+=== Versal
+https://versal.com/[Versal] is in beta.
+
+
+Learning gadgets
+Beyond video. Beyond slide decks. Versal brings interactivity to online learning through customizable exercises called “gadgets.”
+
+Drag and drop gadgets – simulations, charts and so much more - right into your course, no coding required.
+
+And if you do know how to code? Our JavaScript API will be available to developers soon. Sign up for an invite.
+
+Are you a JavaScript developer?
+Are you intrigued by how interactivity will reinvent online learning?
+
+We’ll be opening up our gadget platform/APIs very soon, and we're looking for a handful of creative developers and early adopters. Sign up for an invite and we'll be in touch shortly.
+
+http://readwrite.com/2013/07/09/online-learning-is-broken-and-versal-wants-to-fix-it#awesm=~obdPx1gvIfi1ek
+
+
 
 
 [[projects_shoutout]]
