@@ -45,3 +45,8 @@ This part of the system interprets the code and passes the output back to the sy
 * An interface that is sort of like an a abstract class.  You should be able to pass it the contents of the editing widow to a _perform_ method, and get back the results asynchronously (callback or pub/sub or Pusher) via a _receive_ method.  
 * The initial perform method will just hand ruby or python code off to emscriptem compiled ruby and python.  As the system evolves, it might hand the code off to some server side execution engine.  But, however we do it, the particulars need to be hidden behind some sort of abstraction.
 * The execution engine should also handle loading the emscriptem interpreter in some sort of smart way so that it is cached when it first downloads, and maybe even show some sort of progress bar.  But, something to make it pretty smooth.
+
+=== Questions
+
+* This widget doesn't seem to have any state. So you need to write your entire script in the editor, and then run it. Do we want to enable a sort of IRB-like environment with an interactive shell?
+* Do we want to run this entirely on the client side, or do a stand-alone API? An API could be really fast, and it would allow us to mix JS compiled languages in node, and fall back to the actual install languages in a VM installed on the API machine.
