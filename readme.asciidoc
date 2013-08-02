@@ -1,5 +1,5 @@
 [[introduction]]
-== Introduction
+== Introduction!
 
 This is a catalog of sites where code is a media object in and of its own right.  We're not interested so much in the code itself (i.e., does it work, how does it perform, etc), but how do we communicate *about* code: what are the best ways to see, learn, and understand a topic.  People are learning in new ways, and we want to understand the patterns that are emerging.  
 
