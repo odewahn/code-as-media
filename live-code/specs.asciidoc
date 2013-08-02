@@ -6,12 +6,12 @@ The code is marked up in plain HTML with a couple of key attributes:
 
 * id.  This is a unique id for the example that the author provides
 * class.  The class is set to "live-code"; this is used by transform code to turn the example into a live environment
-* listing-type-data.  The type of code.
+* data-listing-type.  The type of code.
 
 It should look something like this:
 
 ----
-<div id="example1" class="live-code" listing-type-data="rb">
+<div id="example1" class="live-code" data-listing-type="rb">
    def fib(n)
      if n == 1
        return 1
