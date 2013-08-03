@@ -2,6 +2,16 @@
 
 = Patterns of Code As Media
 
+include::part2.asciidoc[]
+
+include::product_description.asciidoc[]
+
+include::design_ideas.asciidoc[]
+
+include::spec_draft.asciidoc[]
+
+include::part1.asciidoc[]
+
 include::readme.asciidoc[]
 
 include::unstructured_sandbox.asciidoc[]
@@ -23,5 +33,3 @@ include::finding_and_searching.asciidoc[]
 include::code_and_metrics.asciidoc[]
 
 include::projects.asciidoc[]
-
-include::design_ideas.asciidoc[]
