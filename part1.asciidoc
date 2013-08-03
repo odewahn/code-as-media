@@ -1,1 +1,1 @@
-= Exploration of live code environments
+= Defining the offering
