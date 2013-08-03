@@ -1,4 +1,4 @@
-= Overview
+== Overview
 
 O'Reilly's future depends on creating tools to help people learn in new, more effective ways that go beyond books.  One key challenge to overcome is that learning almost any new tool, particularly in emerging areas like Data Science, increasingly depends on having a sophisticated stack of components and dependencies installed on your development machine.  
 
@@ -7,7 +7,7 @@ In the past, we've tried to rely on documentation or installation instructions f
 * Inconsistent package mangers.  Each platform has its own package management system -- on linux there's apt and yum, on mac there's brew and fink, and windows is just a mess
 * Language dependencies.  A book might on Rails require Ruby 1.9.3, but user's Mac has 1.8.7. So, the user has to upgrade, which can be a real challenge for someone just getting into a new area.  
 * System dependencies.  For example, to compile many open source tools on a mac you need gcc, but that's not supplied on Mac OS by default, so you have to download XCode
-* Framework-specific package managers.  Each language set and tool has a profucsion of specialized tools just for it.  For example, Python has setuptools, easy_install, or pip, any one of which might be a users preference.
+* Framework-specific package managers.  Each language set and tool has a profusion of specialized tools just for it.  For example, Python has setuptools, easy_install, or pip, any one of which might be a users preference.
 * Required services.  Most frameworks require at least one, if not more, running services.  So, a Rails app might require a database (postgres or mysql), a webserver (thin, webrick, or the built-in service),  a job monitoring system (like god or monit), a caching solution, and a noSql datastore (redis, mongo, etc).  Each of these services must be installed, configured, and started before you can run the app.
 * Libraries.  Once you've got the system and languages dependencies, you still might need a variety of libraries configured and installed.  These can sometime go relatively smoothly (like installing nuympy or scipy under Ubuntu), or can be incredibly painful (like installing Imagemagick under Mac OSX).
 
@@ -15,7 +15,7 @@ So, there is a combinatorial explosion of options and difficulties in setting up
 
 This pain point creates an opportunity for O'Reilly to offer a differentiated learning environment that I'm tentatively calling "Stack in a Box."   (We'll need a better term.)  This will allow us to create a smooth learning experience that is comparable to the solutions that are on the market now, but that address the constraints that we face as a media company.
 
-== Current Solutions
+=== Current Solutions
 
 There is a clear demand for interactive learning environments.  We can see this in the success of two broad categories of products:  online code execution environments sites (like Codecademy) and platform as a service companies (like Heroku).  Each of these approaches is being used as a way to help developers learn new tools in ways that:
 
@@ -25,7 +25,7 @@ There is a clear demand for interactive learning environments.  We can see this 
 
 The following sections describe these solutions in more detail.
 
-== Online code execution environments (Codecademy, etc)
+=== Online code execution environments (Codecademy, etc)
 
 Online code execution environments like Codecademy, Code School, various "Try" sites (http://tryruby.org/, http://try.github.com/, etc), and the iPython Notebook are incredibly popular.  Rather than struggling with a bunch of frustrating sysadmin tasks, a user's first learning experience is a beautifully designed experience with a live coding environment embedded directly into the content.  While this is often an ideal platform, creating these types of fully online systems at O'Reilly poses a number of challenges:
 
@@ -33,7 +33,7 @@ Online code execution environments like Codecademy, Code School, various "Try" s
 * Profusion of environments and tools.  Most of the sites like Codecademy and Code School are geared at beginners, so they tend to cover rather limited features of the various languages and tools.  Since our material is geared towards advanced topics, we'd need a much more robust interpreter.  While we might be able to develop something around general purpose languages like Ruby or Python, it would be very difficult with emerging languages (go, haskell, scala, etc) and tools (hadoop, pig, hive.)
 * Security.  Any environment that runs shell commands is by it's nature insecure.  It's a a shell injection attack waiting to happen.     
 
-== Platform as a Service (Paas)
+=== Platform as a Service (Paas)
 
 The success of "Platform as a Service" companies like Heroku, Engine Yard, Joyent, and others is undoubtedly due in no small part to the way that they have abstracted away all these complex issues.  The developer can simply focus on writing his or her code, and then "push" it up into a platform that has all these dependencies and issues solved.  But, while these systems are a joy to use when deploying code to production, they still leave the problems of a local development environment up to the developer.  He or she still has to replicate the essential application services (database, services, dependencies, etc) on his or her machine.
 
@@ -43,7 +43,7 @@ Again, either replicating this environment or using existing services presents a
 * Limited stacks.  PaaS providers have excellent support for the major stacks (Python, Rails, Node.js, etc), but they don't yet have good support the sort of specialized tools we'd like to write about. 
 * Engineering talent.  Setting up a PaaS service is well beyond the engineering capabilities of O'Reilly for the foreseeable future.  We could certainly partner with a company like Heroku, but that still leaves the previously noted problems.
 
-== O'Reilly "Stack Express" project
+=== O'Reilly "Stack Express" project
 
 "Stack Express" is a concept for a learning environment that takes advantage of the explosion in DevOps tools for system automation (puppet, chef, etc) and virtualization (vagrant, vmware, etc).  The basic idea is:
 

@@ -29,7 +29,7 @@ Note that the code could also be included from another source code file.
 
 The transform code transforms the code sample into the widget, which looks like this:
 
-image::widget.png[]
+image::images/widget.png[]
 
 The widget has the following key parts:
 
