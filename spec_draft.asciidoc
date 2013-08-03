@@ -11,7 +11,11 @@ The code is marked up in plain HTML with a couple of key attributes:
 It should look something like this:
 
 ----
-<pre id="example1" data-type="programlisting" class="live-code" data-code-language="rb">
+<pre 
+   id="example1" 
+   data-type="programlisting" 
+   class="live-code" 
+   data-code-language="rb">
    def fib(n)
      if n == 1
        return 1
