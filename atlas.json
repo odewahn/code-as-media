@@ -3,7 +3,11 @@
     "book.asciidoc"
   ],
   "formats": {
-    "pdf": {},
+    "pdf": {
+      "version": "web",
+      "index": true,
+      "toc": true
+    },
     "epub": {},
     "mobi": {},
     "html": {}
