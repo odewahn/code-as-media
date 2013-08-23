@@ -1,0 +1,11 @@
+{
+  "files": [
+    "book.asciidoc"
+  ],
+  "formats": {
+    "pdf": {},
+    "epub": {},
+    "mobi": {},
+    "html": {}
+  }
+}
