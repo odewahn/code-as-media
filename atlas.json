@@ -1,6 +1,8 @@
 {
   "files": [
-    "book.asciidoc"
+    "execution_and_flow.asciidoc",
+    "live_stack.asciidoc",
+    "part1.asciidoc"
   ],
   "formats": {
     "pdf": {
