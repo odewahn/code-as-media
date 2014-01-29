@@ -87,9 +87,10 @@ http://tryclj.com/[Try Clojure] is an online sandbox for using Clojure, a dynami
 image::images/tryclojure.png[]
 
 
-[[unstructured_shoutout]]
-[role="shoutout"]
-.Have a suggestion or comment?
-****
-Post suggestions or comments here.
-****
+=== forio julia tutorial
+
+http://forio.com/julia/repl/[Julia Tutorial] is an interactive tutorial for the julia language.  It's sturcuted as a command-line style tutoral, where the user can tye commands like "tutorial" or "next" that prompt you to try specific elements of the language.
+
+
+image::images/golang_forio_tutorial.png[images/golang_forio_tutorial.png]
+
