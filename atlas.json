@@ -1,8 +1,8 @@
 {
   "files": [
-    "execution_and_flow.asciidoc",
-    "live_stack.asciidoc",
-    "part1.asciidoc"
+    "structured_sandbox.asciidoc",
+    "unstructured_sandbox.asciidoc",
+    "design_ideas.asciidoc"
   ],
   "formats": {
     "pdf": {
@@ -10,8 +10,21 @@
       "index": true,
       "toc": true
     },
-    "epub": {},
-    "mobi": {},
-    "html": {}
-  }
+    "epub": {
+      "index": false,
+      "toc": false,
+      "epubcheck": false
+    },
+    "mobi": {
+      "index": false,
+      "toc": false
+    },
+    "html": {
+      "index": false,
+      "toc": false,
+      "consolidated": false
+    }
+  },
+  "theme": "oreillymedia/atlas_tech1c_theme",
+  "title": "code as media"
 }
